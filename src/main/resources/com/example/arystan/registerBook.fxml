@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: MediumSeaGreen;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.arystan.RegisterBook">
+    <children>
+        <AnchorPane prefHeight="500.0" prefWidth="700.0">
+            <children>
+                <AnchorPane layoutX="175.0" prefHeight="500.0" prefWidth="350.0" style="-fx-background-color: white;">
+                    <children>
+                        <TextField fx:id="titleFiled" layoutX="14.0" layoutY="160.0" prefHeight="37.0" prefWidth="150.0" promptText="Title" style="-fx-background-color: transparent; -fx-border-color: MediumSeaGreen; -fx-border-width: 0px 0px 2px 0px;">
+                            <font>
+                                <Font name="Dubai Medium" size="14.0" />
+                            </font>
+                        </TextField>
+                        <TextField fx:id="authorField" layoutX="185.0" layoutY="160.0" prefHeight="37.0" prefWidth="150.0" promptText="Author" style="-fx-background-color: transparent; -fx-border-color: MediumSeaGreen; -fx-border-width: 0px 0px 2px 0px;">
+                            <font>
+                                <Font name="Dubai Medium" size="14.0" />
+                            </font>
+                        </TextField>
+                        <ChoiceBox fx:id="who" layoutX="100.0" layoutY="285.0" prefWidth="150.0" />
+                        <TextField fx:id="isbnField" layoutX="14.0" layoutY="231.0" prefHeight="37.0" prefWidth="150.0" promptText="ISBN" style="-fx-background-color: transparent; -fx-border-color: MediumSeaGreen; -fx-border-width: 0px 0px 2px 0px;">
+                            <font>
+                                <Font name="Dubai Medium" size="14.0" />
+                            </font>
+                        </TextField>
+                        <Button fx:id="addButton" layoutX="150.0" layoutY="343.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="60.0" style="-fx-background-color: #3cb371;" text="Add" textFill="WHITE">
+                            <font>
+                                <Font name="Dubai Medium" size="14.0" />
+                            </font>
+                        </Button>
+                  <TextField fx:id="quantityField" layoutX="185.0" layoutY="231.0" prefHeight="37.0" prefWidth="150.0" promptText="Quantity" style="-fx-background-color: transparent; -fx-border-color: MediumSeaGreen; -fx-border-width: 0px 0px 2px 0px;">
+                     <font>
+                        <Font name="Dubai Medium" size="14.0" />
+                     </font>
+                  </TextField>
+                    </children>
+                </AnchorPane>
+                <Text layoutX="14.0" layoutY="201.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Library" wrappingWidth="150.39999999999986">
+                    <font>
+                        <Font name="Modern No. 20" size="43.0" />
+                    </font>
+                </Text>
+                <ImageView fx:id="bookImage" fitHeight="104.0" fitWidth="96.0" layoutX="41.0" layoutY="227.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../../Image/Book.png" />
+                    </image>
+                </ImageView>
+                  <ImageView fx:id="login" fitHeight="56.0" fitWidth="56.0" layoutX="589.0" layoutY="167.0" pickOnBounds="true" preserveRatio="true">
+                      <image>
+                          <Image url="@../../../Image/login.png" />
+                      </image>
+                  </ImageView>
+            <ImageView fx:id="register" fitHeight="56.0" fitWidth="89.0" layoutX="589.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Image/redister.png" />
+               </image>
+            </ImageView>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

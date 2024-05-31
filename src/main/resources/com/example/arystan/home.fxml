@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: MediumSeaGreen;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.arystan.Home">
+   <children>
+      <AnchorPane prefHeight="500.0" prefWidth="700.0">
+         <children>
+            <AnchorPane layoutX="350.0" prefHeight="500.0" prefWidth="350.0" style="-fx-background-color: white;">
+               <children>
+                  <ImageView fx:id="registerImage" fitHeight="56.0" fitWidth="89.0" layoutX="205.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Image/redister.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="login" fitHeight="56.0" fitWidth="56.0" layoutX="101.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Image/login.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="bookToUser" fitHeight="56.0" fitWidth="56.0" layoutX="147.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Image/library.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <Text layoutX="96.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Library">
+               <font>
+                  <Font name="Modern No. 20" size="50.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="bookImage" fitHeight="150.0" fitWidth="200.0" layoutX="100.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Image/Book.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
